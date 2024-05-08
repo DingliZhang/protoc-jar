@@ -211,6 +211,9 @@ public class PlatformDetector
         if ("ppc64le".equals(value)) {
             return "ppcle_64";
         }
+        if ("riscv64".equals(value)) {
+            return "riscv64";
+        }
         if ("s390".equals(value)) {
             return "s390_32";
         }
